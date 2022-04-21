@@ -1,0 +1,163 @@
+// EPISODS MENU SECTION
+
+
+// EPISODS SECTION TOP OR HEADER PART
+.episods-section{
+  padding: 50px 0;
+}
+
+.episodstext{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  &__title{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    color: #000000;
+  }
+
+  &__link{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #9224D6;
+  }
+}
+
+
+// EPISODS MENU SECTION General part
+
+.episodsmenu{
+
+  margin-top: 25px;
+
+  &__text-box{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item{
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+  }
+
+  &__item-bottom{
+    margin-top: 64px;
+  }
+
+  &__text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  &__point{
+    display: flex;
+    width: 4px;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    margin: 0 12px;
+    background-color: black;
+    // width: 4px;
+    // height: 4px;
+    border-radius: 100%;
+  }
+
+  &__title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  &__desc{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
+  }
+
+  &__link-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9224D6;
+  }
+
+  &__icon{
+    margin-right: 12px;
+  }
+
+  &__link-info{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+  }
+
+  &__link-info::before{
+    content: url(../images/clock1.png);
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+    background-image: url("../images/clock1.png");
+  }
+}

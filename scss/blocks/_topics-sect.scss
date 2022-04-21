@@ -1,0 +1,73 @@
+// TOPICS SECTION Mavzular qismi
+
+.topic-section{
+  padding: 50px 0;
+}
+
+// TOPICS SECTION TOP OR HEADER PART
+
+.topicstext{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  &__title{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    color: #000000;
+  }
+
+  &__link{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #9224D6;
+  }
+}
+
+// TOPICS MENU OR LIST PART OF TOPICS
+.topicsmenu{
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item-title{
+    margin: 0;
+    padding: 0;
+    margin: 18px 0 8px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+  }
+
+  &__item-desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+  }
+}
